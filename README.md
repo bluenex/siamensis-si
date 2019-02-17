@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In Thailand, there is a community website for naturalist called [Siamensis (siamensis.org)](http://www.siamensis.org) founded by naturalist businessman. This website is one of the best place for knowledge exchange and biodiversity discussion.. in the past. Nowadays it is pretty hard to keep running on a webboard and people tend to come over to social network service instead. However, there is an invaluable source of information which is only available on the website, it is Species Index (SI). 
+In Thailand, there is a community website for naturalist called [Siamensis (siamensis.org)](http://www.siamensis.org) founded by, Nonn Panitvong, a naturalist businessman. This website is one of the best place for knowledge exchange and biodiversity discussion.. in the past. Nowadays it is pretty hard to keep running on a webboard and people tend to come over to social network service instead. However, there is an invaluable source of information which is only available on the website, it is Species Index (SI).
 
 There is a world species index database called [The Catalogue of Life](http://www.catalogueoflife.org/col/), but they are different in many ways. The most distinctive point is that, Siamensis SI is authored by Thai, hence species listed on it are reportedly found in Thailand (whether or not they are re-found). This makes Siamensis SI unique and should be reserved for the next generation.
 
@@ -19,8 +19,12 @@ I have scraped all the data and saved in `.json` format so that it is easy to im
 ```py
 import pandas as pd
 
-si_data = pd.read_json('full_si_data.json)
+si_data = pd.read_json('si-data.json)
 ```
+
+## Example
+
+You can see example in [si-stats.ipynb](ipynb/si-stats.ipynb).
 
 ## Licenses
 
